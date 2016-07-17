@@ -1,5 +1,5 @@
 方法名：HolographicSpace.SetDirect3D11Device | setDirect3D11Device method
-描述：为将要显示的全息内容分配一个IDirect3DDevice。如果应用程序创建了	一个不合适的设备将会发生一个错误。
+描述：为将要显示的全息内容分配一个IDirect3DDevice。如果应用程序创建了一个不合适的设备将会发生一个错误。
 语法：
 	public void SetDirect3D11Device(IDirect3DDevice value)
 参数：
