@@ -4,6 +4,6 @@ HolographicCameraPose
 HolographicCameraRenderingParameters
 HolographicFrame
 HolographicFramePrediction
-HolographicSpace（王瑞麟）
+HolographicSpace（wrl）
 HolographicSpaceCameraAddedEventArgs
 HolographicSpaceCameraRemovedEventArgs
