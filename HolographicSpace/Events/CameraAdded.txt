@@ -1,0 +1,13 @@
+事件名：HolographicSpace.CameraAdded | camera added event
+描述：当一个全息摄像头被增加到现有的全息空间中时发生。
+	应用程序可以通过这个事件设置它们可能需要的任意摄像头资源。
+	除非推迟被采用，一旦所有事件处理完成，系统将把这台摄像头放入应用程序必须渲染每一帧的摄像头列表中。
+语法：
+	public event TypedEventHandler<HolographicSpace,HolographicSpaceCameraAddedEventArgs> CameraAdded
+事件信息：
+	Delegate：TypedEventHandler<holographicSpace,HolographicSpaceCameraAddedEventArgs>
+要求：
+	Device family：Universal, introduced version 10.0.10586.0
+	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0
+	Namespace：Windows.Graphics.Holographic
+	Metadata：Windows.Foundation.UniversalApiContract.winmd

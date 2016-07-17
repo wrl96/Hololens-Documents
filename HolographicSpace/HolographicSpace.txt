@@ -1,0 +1,19 @@
+类名：HolographicSpace
+描述：表示一个全息场景，通过一个或更多全息摄像头渲染它的内容。
+语法：
+	public sealed class HolographicSpace
+成员：事件、方法、属性
+事件：
+	CameraAdded：当一个全息摄像头被增加到现有的全息空间中时发生。
+	CameraRemoved：当一个全息摄像头从现有的全息空间中被移除时发生。
+方法：
+	CreateForCoreWindow：创建一个对应指定窗口的CoreApplicationView的全息空间。
+	CreateNextFrame：为下一帧的显示创建一个全息帧。
+	SetDirect3D11Device：为将要显示的全息内容分配一个IDirect3DDevice。如果应用程序创建了	一个不合适的设备将会发生一个错误。
+属性：
+	PrimaryAdapterId(Read-only)：显示全息内容时被用来获取图形适配器的标识符。
+要求：
+	Device family：Universal, introduced version 10.0.10586.0
+	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0
+	Namespace：Windows.Graphics.Holographic
+	Metadata：Windows.Foundation.UniversalApiContract.winmd

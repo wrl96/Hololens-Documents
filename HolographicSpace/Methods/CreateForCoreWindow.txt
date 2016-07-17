@@ -1,0 +1,15 @@
+方法名：HolographicSpace.CreateForCoreWindow | createForCoreWindow method
+描述：创建一个对应指定窗口的CoreApplicationView的全息空间。
+	应用程序使用HolographicFrame返回到这里以找出每个全息摄像头在该帧显示的时间的预测位置，基于这个预测渲染它们的视图，然后调用PresentUsingCurrentPrediction方法把它们发送到显示器。
+	系统会追踪从CreateNextFrame方法被调用直到这一帧被显示的端到端延迟。这决定了系统将为下一帧的预测有多少期待。
+语法：
+	public HolographicFrame CreateNextFrame()
+返回值：
+	返回值1:
+		类：HolographicFrame
+		描述：下一帧
+要求：
+	Device family：Universal, introduced version 10.0.10586.0
+	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0
+	Namespace：Windows.Graphics.Holographic
+	Metadata：Windows.Foundation.UniversalApiContract.winmd
