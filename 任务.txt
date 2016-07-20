@@ -5,5 +5,5 @@ HolographicCameraRenderingParameters
 HolographicFrame
 HolographicFramePrediction
 HolographicSpace（wrl）
-HolographicSpaceCameraAddedEventArgs
-HolographicSpaceCameraRemovedEventArgs
+HolographicSpaceCameraAddedEventArgs（wrl）
+HolographicSpaceCameraRemovedEventArgs（wrl）
