@@ -1,0 +1,11 @@
+属性名：
+    HolographicCameraRenderingParameters.Direct3D11BackBuffer | direct3D11BackBuffer property
+描述：
+    获得此照相机的Direct3D 11后台缓冲表面。应用程序必须获取一个新的缓冲表面用来呈现每一帧。
+
+语法：public IDirect3DSurface Direct3D11BackBuffer { get; }
+
+属性值：
+    类： IDirect3DSurface
+    描述：Direct3D 11表面保存缓冲区
+

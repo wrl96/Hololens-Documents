@@ -1,0 +1,36 @@
+方法名：
+    HolographicCameraRenderingParameters.SetFocusPoint(SpatialCoordinateSystem, Vector3, Vector3) | setFocusPoint(SpatialCoordinateSystem, Vector3, Vector3) method
+
+描述：
+    设置用户专注的全息空间中的固定点，以及通过这一点正常的焦点平面。
+    这是用来提高在聚焦点和沿面向用户的默认聚焦平面的图像质量
+    你必须为每一帧设置焦点,或者将重置为其默认值
+
+语法：
+    public void SetFocusPoint(
+      SpatialCoordinateSystem coordinateSystem,
+      Vector3 position,
+      Vector3 normal
+    )
+
+参数：
+    坐标系
+        类型：SpatialCoordinateSystem
+        描述：位置和法向量的坐标系
+    位置：
+        类型：Vector3
+        描述：在指定的坐标系统中焦点的位置
+    normal:
+        类型：Vector3
+        描述：在指定的坐标系统中焦点的normal属性,如果已知。如果没有明显的正常,它已经面对用户。
+
+返回值：
+        void
+
+
+
+要求：
+    Device family：Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+    API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0
+    Namespace：Windows.Graphics.Holographic
+    Metadata：Windows.Foundation.UniversalApiContract.winmd
