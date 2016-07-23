@@ -1,0 +1,13 @@
+方法名：HolographicCamera.SetFarPlaneDistance | setFarPlaneDistance method
+描述：设置沿着z轴，从空间的原点到视锥的远平面的距离。
+语法：
+	public void SetFarPlaneDistance(double value)
+参数：
+	value:
+		类：Double
+		描述：远平面的距离，以米为单位。默认情况下，它被设置为20米。
+要求：
+	Device family：Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0
+	Namespace：Windows.Graphics.Holographic
+	Metadata：Windows.Foundation.UniversalApiContract.winmd

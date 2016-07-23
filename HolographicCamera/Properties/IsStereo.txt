@@ -1,0 +1,12 @@
+属性名：HolographicCamera.IsStereo | isStereo property
+描述：获取当前的声道是否是立体声，而不是单声道。
+语法：
+	public bool IsStereo { get; }
+属性值：
+	类：bool
+	描述：如果为True，则当前的声道是立体声，否则为False。
+要求：
+	Device family：Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0
+	Namespace：Windows.Graphics.Holographic
+	Metadata：Windows.Foundation.UniversalApiContract.winmd

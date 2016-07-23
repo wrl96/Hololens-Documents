@@ -1,0 +1,18 @@
+类名：HolographicCamera
+描述：表示需要一个应用程序来从一个特定角度渲染的全息空间的显示器。一个应用程序必须渲染每一个全息摄像头的每一帧。
+语法：
+	public sealed class HolographicCamera
+成员：方法、属性
+方法：
+	SetFarPlaneDistance：设置沿着z轴，从空间的原点到视锥的远平面的距离。
+	SetNearPlaneDistance：设置沿着z轴，从空间的原点到视锥的近平面的距离。
+属性：
+	Id(Read-only)：获取全息摄像头的唯一标识符。
+	IsStereo(Read-only)：获取当前的声道是否是立体声，而不是单声道。
+	RenderTargetSize(Read-only)：获取渲染目标的尺寸。
+	ViewportScaleFactor(Read/write)：获取或设置应用于默认视口大小的比例因子。
+要求：
+	Device family：Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0
+	Namespace：Windows.Graphics.Holographic
+	Metadata：Windows.Foundation.UniversalApiContract.winmd
