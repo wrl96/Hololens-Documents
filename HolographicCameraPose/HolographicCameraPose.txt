@@ -1,0 +1,48 @@
+类名：HolographicCameraPose
+
+描述：
+    表示全息摄像机的特定帧中的预测位置
+
+语法：
+    public sealed class HolographicCameraPose
+
+成员：方法、属性
+
+    方法：
+        TryGetCullingFrustum:
+            获取这个相机姿势下视锥体的保守剔除预测，在指定的坐标系中表示出来
+
+        TryGetViewTransform:
+            获取这个相机的立体视图变换姿势,表示为从一个指定的坐标系的变换
+
+        TryGetVisibleFrustum:
+             获取当前相机姿势下视锥的预测，在指定的坐标系中表示出来
+
+    属性(只读)：
+        FarPlaneDistance:
+            这个框架远平面的距离,单位米。默认情况下,设置为20米。
+
+        HolographicCamera:
+            获取此摄像姿势所描述的全息相机。
+
+        NearPlaneDistance:
+            这个框架近平面的距离,单位米。默认情况下,设置为0.01米
+
+        ProjectionTransform:
+            获取此相机姿势下的立体投影变换
+
+        Viewport:
+            获取应用必须呈现给此框架下相机的视窗矩形
+            要缩小以后帧的视窗，在HolographicCamera中设置ViewportScaleFactor
+
+要求：
+    Device famliy:
+        Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+    API contract:
+        Windows.Foundation.UniversalApiContract, introduced version 2.0
+    Namespace:
+        Windows.Graphics.Holographic
+
+    Metadata:
+        Windows.Foundation.UniversalApiContract.winmd
+

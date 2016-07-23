@@ -1,0 +1,30 @@
+方法名：
+    HolographicCameraPose.TryGetVisibleFrustum | tryGetVisibleFrustum method
+
+描述：
+    获取当前相机姿势下视锥的预测，在指定的坐标系中表示出来
+
+语法：
+    public Nullable<SpatialBoundingFrustum> TryGetVisibleFrustum(
+        SpatialCoordinateSystem coordinateSystem )
+
+参数：
+    坐标系:
+        类： SpatialCoordinateSystem
+        描述：坐标系中描述可见视锥
+
+返回值：
+    类： System.Nullable<SpatialBoundingFrustum>
+    描述：可见视锥
+
+要求：
+    Device famliy:
+        Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+    API contract:
+        Windows.Foundation.UniversalApiContract, introduced version 2.0
+    Namespace:
+        Windows.Graphics.Holographic
+
+    Metadata:
+        Windows.Foundation.UniversalApiContract.winmd
+

@@ -1,0 +1,30 @@
+方法名：
+    HolographicCameraPose.TryGetViewTransform | tryGetViewTransform method
+
+描述：
+    获取这个相机的立体视图变换姿势,表示为从一个指定的坐标系的变换
+
+语法：
+    public Nullable<HolographicStereoTransform> TryGetViewTransform(
+      SpatialCoordinateSystem coordinateSystem )
+参数：
+    coordinateSystem(坐标系)
+      类：  SpatialCoordinateSystem
+      描述：坐标系中呈现几何部分应转变
+返回值：
+    类： System.Nullable<HolographicStereoTransform>
+    描述：该转换
+
+备注：
+    如果指定坐标系不能定位，该方法将返回null
+
+要求：
+    Device famliy:
+        Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+    API contract:
+        Windows.Foundation.UniversalApiContract, introduced version 2.0
+    Namespace:
+        Windows.Graphics.Holographic
+
+    Metadata:
+        Windows.Foundation.UniversalApiContract.winmd
