@@ -2,8 +2,8 @@
 HolographicCamera(wrl)
 HolographicCameraPose(wrl)
 HolographicCameraRenderingParameters
-HolographicFrame
-HolographicFramePrediction
+HolographicFrame（wyb）
+HolographicFramePrediction（wyb）
 HolographicSpace（wrl）
 HolographicSpaceCameraAddedEventArgs（wrl）
 HolographicSpaceCameraRemovedEventArgs（wrl）
