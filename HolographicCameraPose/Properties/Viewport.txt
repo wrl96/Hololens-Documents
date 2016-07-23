@@ -1,0 +1,25 @@
+属性名：
+    HolographicCameraPose.Viewport | viewport property
+
+描述：
+    获取应用必须呈现给此框架下相机的视窗矩形
+    要缩小以后帧的视窗，在HolographicCamera中设置ViewportScaleFactor
+
+语法： public Rect Viewport { get; }
+
+属性值：
+    类：   Rect
+    描述： 视窗矩形
+
+
+要求：
+    Device famliy:
+        Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+    API contract:
+        Windows.Foundation.UniversalApiContract, introduced version 2.0
+    Namespace:
+        Windows.Graphics.Holographic
+
+    Metadata:
+        Windows.Foundation.UniversalApiContract.winmd
+

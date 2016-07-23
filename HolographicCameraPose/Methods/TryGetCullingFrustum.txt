@@ -1,0 +1,37 @@
+方法名：
+    HolographicCameraPose.TryGetCullingFrustum | tryGetCullingFrustum method
+
+说明：
+    视锥体（frustum），是指场景中摄像机的可见的一个锥体范围。它有上、下、左、右、近、远，共6个面组成。在视锥体内的景物可见，反之则不可见。为提高性能，只对其中与视锥体有交集的对象进行绘制。
+    Frustum Culling就是来判断一个物体是否会显示在界面上，如果不显示，那么在应用程序阶段就将它剔除掉，这样就不用浪费资源来进行操作了。
+
+描述：获取这个相机姿势下视锥体的保守剔除预测，在指定的坐标系中表示出来。
+
+
+语法：
+    public Nullable<SpatialBoundingFrustum> TryGetCullingFrustum(
+      SpatialCoordinateSystem coordinateSystem
+    )
+
+
+参数：
+    coordingateSystem(坐标系)：
+      类：SpatialCoordinateSystem
+      描述：坐标系中用来表述剔除视锥体的部分
+
+
+返回值：
+    返回值1:
+         System.Nullable<SpatialBoundingFrustum>
+        描述：视锥体剔除
+
+要求：
+    Device famliy:
+        Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+    API contract:
+        Windows.Foundation.UniversalApiContract, introduced version 2.0
+    Namespace:
+        Windows.Graphics.Holographic
+
+    Metadata:
+        Windows.Foundation.UniversalApiContract.winmd
