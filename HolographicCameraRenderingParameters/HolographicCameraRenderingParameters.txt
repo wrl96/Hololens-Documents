@@ -1,0 +1,42 @@
+类名：HolographicCameraRenderingParameters
+
+描述：
+    代表呈现全息内容的每个摄像头参数
+    应用程序可以在每一帧上调用SetFocusPoint方法来提高全息图像质量
+    App能为用户面对的场景指定position(位置),normal,velocity(速度)属性
+    通过定义position,normal属性，全息图将最稳定地位于指定位置和切平面
+    如果内容不具有显示的normal，忽略它或把它面对用户
+
+语法：public sealed class HolographicCameraRenderingParameters
+
+成员：方法、属性
+
+    方法：
+        SetFocusPoint(SpatialCoordinateSystem,Vector3)
+            设置当前帧中用户可能专注的全息空间中的固定点
+
+        SetFocusPoint(SpatialCoordinateSystem,Vector3,Vector3)
+            设置用户专注的全息空间中的固定点，以及通过这一点正常的焦点平面
+
+        SetFocusPoint(SpatialCoordinateSystem,Vector3,Vector3,Vector3)
+            设置用户面对的全息空间中的移动点，以及通过这一点正常的焦点平面
+
+    属性：
+        Direct3D11BackBuffer
+            获取摄像机的Direct3D 11设备
+
+        Direct3D11Device
+            获得此照相机的Direct3D 11后台缓冲表面
+
+要求：
+    Device famliy:
+        Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+    API contract:
+        Windows.Foundation.UniversalApiContract, introduced version 2.0
+    Namespace:
+        Windows.Graphics.Holographic
+
+    Metadata:
+        Windows.Foundation.UniversalApiContract.winmd
+
+

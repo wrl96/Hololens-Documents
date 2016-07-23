@@ -1,0 +1,11 @@
+属性名：
+    HolographicCameraRenderingParameters.Direct3D11Device | direct3D11Device property
+描述：
+    获取摄像机的Direct3D 11设备
+
+语法：public IDirect3DDevice Direct3D11Device { get; }
+
+属性值：
+    类：  IDirect3DDevice
+    描述：Direct3D 11 设备
+
