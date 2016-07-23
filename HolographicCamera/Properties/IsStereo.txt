@@ -1,10 +1,10 @@
-属性名：HolographicSpace.PrimaryAdpterId | primary AdapterId property
-描述：显示全息内容时被用来获取图形适配器的标识符。
+属性名：HolographicCamera.IsStereo | isStereo property
+描述：获取当前的声道是否是立体声，而不是单声道。
 语法：
-	public HolographicAdapterId PrimaryAdapterId { get; }
+	public bool IsStereo { get; }
 属性值：
-	类：HolographicAdapterId
-	描述：标识符。
+	类：bool
+	描述：如果为True，则当前的声道是立体声，否则为False。
 要求：
 	Device family：Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
 	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0

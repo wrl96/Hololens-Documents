@@ -1,10 +1,11 @@
-属性名：HolographicSpace.PrimaryAdpterId | primary AdapterId property
-描述：显示全息内容时被用来获取图形适配器的标识符。
+方法名：HolographicSpaceCameraAddedEventArgs.GetDeferral | getDeferral method
+描述：增加这个摄像头的请求被推迟到推迟完毕。
 语法：
-	public HolographicAdapterId PrimaryAdapterId { get; }
-属性值：
-	类：HolographicAdapterId
-	描述：标识符。
+	public Deferral GetDeferral()
+返回值：
+	返回值1:
+		类：Deferral
+		描述：延迟
 要求：
 	Device family：Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
 	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0

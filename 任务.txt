@@ -1,9 +1,9 @@
 更新时间：2016-07-15 22:37
-HolographicCamera
-HolographicCameraPose
+HolographicCamera(wrl)
+HolographicCameraPose(wrl)
 HolographicCameraRenderingParameters
-HolographicFrame
-HolographicFramePrediction
+HolographicFrame（wyb）
+HolographicFramePrediction（wyb）
 HolographicSpace（wrl）
-HolographicSpaceCameraAddedEventArgs
-HolographicSpaceCameraRemovedEventArgs
+HolographicSpaceCameraAddedEventArgs（wrl）
+HolographicSpaceCameraRemovedEventArgs（wrl）

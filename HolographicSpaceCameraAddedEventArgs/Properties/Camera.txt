@@ -1,10 +1,10 @@
-属性名：HolographicSpace.PrimaryAdpterId | primary AdapterId property
-描述：显示全息内容时被用来获取图形适配器的标识符。
+属性名：HolographicSpaceCameraAddedEventArgs.Camera | camera property
+描述：获取正在被添加的全息摄像头，应用程序应该为这个摄像头设置它可能需要的任意的每个摄像头的资源。
 语法：
-	public HolographicAdapterId PrimaryAdapterId { get; }
+	public HolographicCamera Camera { get; }
 属性值：
-	类：HolographicAdapterId
-	描述：标识符。
+	类：HolographicCamera
+	描述：摄像头。
 要求：
 	Device family：Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
 	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0

@@ -1,0 +1,14 @@
+属性名：HolographicCamera.ViewportScaleFactor | viewportScaleFactor property
+描述：获取或设置应用于默认视口大小的比例因子。
+    系统决定每一帧的视口中的应用程序必须渲染的那一帧的渲染目标的大小。有时候系统可以降低这个因子来释放系统资源，比如当发生视频捕获时。无论视口大小，被渲染的图像总是放大到显示器的全尺寸。一个应用程序出于其它原因希望降低它的渲染成本时可以请求更小的视口。
+    你可以在0.0到1.0之间设置比例因子，它是由默认视口尺寸相乘。在未来的帧里，系统将渲染有效视口大小到最接近你指定的视口大小。
+语法：
+	public double ViewportScaleFactor { get; set; }
+属性值：
+	类：double
+	描述：视口比例因子。
+要求：
+	Device family：Universal, introduced version 10.0.10586.0 [for Xbox, see UWP features that aren't yet supported on Xbox]
+	API contract：Windows.Foundation.UniversalApiContract, introduced version 2.0
+	Namespace：Windows.Graphics.Holographic
+	Metadata：Windows.Foundation.UniversalApiContract.winmd
