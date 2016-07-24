@@ -7,3 +7,4 @@ HolographicFramePrediction（wyb）
 HolographicSpace（wrl）
 HolographicSpaceCameraAddedEventArgs（wrl）
 HolographicSpaceCameraRemovedEventArgs（wrl）
+Windows.Perception(ljt)
