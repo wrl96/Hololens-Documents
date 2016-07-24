@@ -1,0 +1,12 @@
+属性名：
+    PerceptionTimestamp.PredictionAmount | predictionAmount property
+
+描述：
+    关于未来的时间戳,得到预测时间和目标时间之间的时间跨度。当你得到一种改进的预测(例如,从较新的全息帧预测)TargetTime(目标时间)将保持不变,PredictionAmount(预测量)将减少。
+    对于过去的时间戳，预测量始终为0，即使与此时间戳相关的数据之间插入两个读数。
+
+语法：public TimeSpan PredictionAmount { get; }
+
+属性值：
+    类： System.TimeSpan
+    描述：预测时间
